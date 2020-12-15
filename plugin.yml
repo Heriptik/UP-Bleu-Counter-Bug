@@ -1,0 +1,6 @@
+name: UpBleuCounterBug
+version: 0.7
+author: Pepefab
+main: xyz.ultrapixelmon.upbleucounterbug.Main
+api-version: 1.12.2
+ 
