@@ -14,34 +14,39 @@ public class TerreBattuSpawn implements Listener {
 		
 		Player player = event.getPlayer();
 		ItemStack it = event.getItem();
-		
-		if (it != null && player.isOp() != true && player.getWorld().getName().equals("world")){
-			if (it.getType() == Material.DIAMOND_SPADE || 
-				it.getType() == Material.IRON_SPADE || 
-				it.getType() == Material.WOOD_SPADE || 
-				it.getType() == Material.STONE_SPADE || 
-				it.getType() == Material.GOLD_SPADE || 
-				it.getType() == Material.STONE_SPADE || 
-				it.getType() == Material.WATER_BUCKET || 
-				it.getType() == Material.LAVA_BUCKET || 
-				it.getType() == Material.valueOf("PIXELMON_FIRE_STONE_SHOVEL") || 
-				it.getType() == Material.valueOf("PIXELMON_RUBY_SHOVEL") || 
-				it.getType() == Material.valueOf("PIXELMON_SAPPHIRE_SHOVEL") || 
-				it.getType() == Material.valueOf("PIXELMON_AMETHYST_SHOVEL") || 
-				it.getType() == Material.valueOf("PIXELMON_CRYSTAL_SHOVEL") || 
-				it.getType() == Material.valueOf("PIXELMON_WATER_STONE_SHOVEL") || 
-				it.getType() == Material.valueOf("PIXELMON_LEAF_STONE_SHOVEL") || 
-				it.getType() == Material.valueOf("PIXELMON_THUNDER_STONE_SHOVEL") || 
-				it.getType() == Material.valueOf("PIXELMON_SUN_STONE_SHOVEL") || 
-				it.getType() == Material.valueOf("PIXELMON_MOON_STONE_SHOVEL") || 
-				it.getType() == Material.valueOf("PIXELMON_DAWN_STONE_SHOVEL") || 
-				it.getType() == Material.valueOf("PIXELMON_DUSK_STONE_SHOVEL") || 
-				it.getType() == Material.valueOf("PIXELMON_ALUMINIUM_SPADE") || 
-				it.getType() == Material.valueOf("FORGE_BUCKETFILLED")){
+
+		if (it != null && player.isOp() != true && player.getWorld().getName().equals("world")) {
+			if (it.getType() == Material.DIAMOND_SPADE ||
+					it.getType() == Material.IRON_SPADE ||
+					it.getType() == Material.WOOD_SPADE ||
+					it.getType() == Material.STONE_SPADE ||
+					it.getType() == Material.GOLD_SPADE ||
+					it.getType() == Material.STONE_SPADE ||
+					it.getType() == Material.WATER_BUCKET ||
+					it.getType() == Material.LAVA_BUCKET ||
+					it.getType() == Material.valueOf("PIXELMON_FIRE_STONE_SHOVEL") ||
+					it.getType() == Material.valueOf("PIXELMON_RUBY_SHOVEL") ||
+					it.getType() == Material.valueOf("PIXELMON_SAPPHIRE_SHOVEL") ||
+					it.getType() == Material.valueOf("PIXELMON_AMETHYST_SHOVEL") ||
+					it.getType() == Material.valueOf("PIXELMON_CRYSTAL_SHOVEL") ||
+					it.getType() == Material.valueOf("PIXELMON_WATER_STONE_SHOVEL") ||
+					it.getType() == Material.valueOf("PIXELMON_LEAF_STONE_SHOVEL") ||
+					it.getType() == Material.valueOf("PIXELMON_THUNDER_STONE_SHOVEL") ||
+					it.getType() == Material.valueOf("PIXELMON_SUN_STONE_SHOVEL") ||
+					it.getType() == Material.valueOf("PIXELMON_MOON_STONE_SHOVEL") ||
+					it.getType() == Material.valueOf("PIXELMON_DAWN_STONE_SHOVEL") ||
+					it.getType() == Material.valueOf("PIXELMON_DUSK_STONE_SHOVEL") ||
+					it.getType() == Material.valueOf("PIXELMON_ALUMINIUM_SPADE") ||
+					it.getType() == Material.valueOf("FORGE_BUCKETFILLED") ||
+					it.getType() == Material.FISHING_ROD ||
+					it.getType() == Material.valueOf("PIXELMON_OLD_ROD") ||
+					it.getType() == Material.valueOf("PIXELMON_GOOD_ROD") ||
+					it.getType() == Material.valueOf("PIXELMON_SUPER_ROD") ||
+					it.getType() == Material.valueOf("PIXELMON_OAS_ROD")) {
 				player.sendMessage("§c§lHey! §7Il n'est pas possible d'interagir avec cet objet dans la main.");
-				event.setCancelled(true);		
+				event.setCancelled(true);
 			}
-		
+
 		}
 		
 	}

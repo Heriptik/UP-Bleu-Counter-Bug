@@ -24,7 +24,7 @@ public class RanchPancartesRemover implements Listener{
 		if (player.hasPermission("ranchpancarte.moderation")) {
 			ItemStack heldItem = player.getItemInHand();
 
-			if (heldItem.getType().name().equals("PIXELMON_RUBY_HAMMER")) { // Marteau en ruby
+			if (heldItem.getType().equals(Material.ARROW)) {
 				if (clickedBlock.getType() == Material.WALL_SIGN) {
 					player.sendMessage("§7Vous venez de retirer une pancarte lockette.");
 					clickedBlock.setType(Material.AIR);
