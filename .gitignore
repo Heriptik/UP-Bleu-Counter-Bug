@@ -1,1 +1,8 @@
 /bin/
+/UPBleu Counter Bug/
+/UPBleu_Counter_Bug_jar/
+.idea
+.settings
+.gitignore
+.classpath
+.project

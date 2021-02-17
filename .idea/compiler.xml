@@ -4,6 +4,8 @@
     <excludeFromCompile>
       <directory url="file://$PROJECT_DIR$/UPBleu_Counter_Bug_jar" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/UPBleu Counter Bug" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/.idea" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/.settings" includeSubdirectories="true" />
     </excludeFromCompile>
   </component>
 </project>
