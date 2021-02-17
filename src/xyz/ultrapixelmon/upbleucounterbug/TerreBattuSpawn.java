@@ -22,6 +22,7 @@ public class TerreBattuSpawn implements Listener {
 					it.getType() == Material.STONE_SPADE ||
 					it.getType() == Material.GOLD_SPADE ||
 					it.getType() == Material.STONE_SPADE ||
+					it.getType() == Material.BUCKET ||
 					it.getType() == Material.WATER_BUCKET ||
 					it.getType() == Material.LAVA_BUCKET ||
 					it.getType() == Material.valueOf("PIXELMON_FIRE_STONE_SHOVEL") ||
