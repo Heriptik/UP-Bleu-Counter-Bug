@@ -6,11 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c6632dc-9ab8-4a44-8882-51ad3f93af98" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UPBleu_Counter_Bug_jar/UPBleu Counter Bug.jar" beforeDir="false" afterPath="$PROJECT_DIR$/UPBleu_Counter_Bug_jar/UPBleu Counter Bug.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/xyz/ultrapixelmon/upbleucounterbug/TerreBattuSpawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xyz/ultrapixelmon/upbleucounterbug/TerreBattuSpawn.java" afterDir="false" />
-    </list>
+    <list default="true" id="4c6632dc-9ab8-4a44-8882-51ad3f93af98" name="Default Changelist" comment="Désactivation des cannes à pêche au spawn" />
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
