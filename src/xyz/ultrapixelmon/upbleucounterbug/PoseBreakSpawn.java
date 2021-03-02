@@ -14,7 +14,7 @@ public class PoseBreakSpawn implements Listener {
 		
 		Player player = event.getPlayer();
 
-		if (player.isOp() != true && player.getWorld().getName().equals("world")){
+		if (player.hasPermission("world.buildallow") == false && player.getWorld().getName().equals("world")){
 			event.setCancelled(true);
 			player.sendMessage("§c§lHey! §7Vous ne pouvez pas casser de block au spawn.");
 		}
@@ -26,7 +26,7 @@ public class PoseBreakSpawn implements Listener {
 		
 		Player player = event.getPlayer();
 		
-		if (player.isOp() != true && player.getWorld().getName().equals("world")){
+		if (player.hasPermission("world.buildallow") == false && player.getWorld().getName().equals("world")){
 			event.setCancelled(true);
 			player.sendMessage("§c§lHey! §7Vous ne pouvez pas poser de block au spawn.");
 		}

@@ -12,6 +12,8 @@ public class Main extends JavaPlugin {
 		getServer().getPluginManager().registerEvents(new FrostWalkerDisable(), this);
 		getServer().getPluginManager().registerEvents(new PoseBreakSpawn(), this);
 		getServer().getPluginManager().registerEvents(new RanchPancartesRemover(), this);
+		getServer().getPluginManager().registerEvents(new LargageCooldownPlayer(), this);
+		getServer().getPluginManager().registerEvents(new DisableInteractPokeLoot(), this);
 	}
 	
 	@Override

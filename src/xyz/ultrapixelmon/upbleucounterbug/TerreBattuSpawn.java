@@ -15,7 +15,7 @@ public class TerreBattuSpawn implements Listener {
 		Player player = event.getPlayer();
 		ItemStack it = event.getItem();
 
-		if (it != null && player.isOp() != true && player.getWorld().getName().equals("world")) {
+		if (it != null && player.hasPermission("world.buildallow") == false && player.getWorld().getName().equals("world")) {
 			if (it.getType() == Material.DIAMOND_SPADE ||
 					it.getType() == Material.IRON_SPADE ||
 					it.getType() == Material.WOOD_SPADE ||

@@ -22,6 +22,10 @@ public class FrostWalkerDisable implements Listener {
 				event.getNewArmorPiece().removeEnchantment(Enchantment.FROST_WALKER);
 				player.sendMessage("§c§lHey! §7L'enchantement frost-walker n'est pas actif sur le serveur, il vous est donc retiré.");
 			}
+			if(event.getNewArmorPiece().containsEnchantment(Enchantment.BINDING_CURSE)){
+				event.getNewArmorPiece().removeEnchantment(Enchantment.BINDING_CURSE);
+				player.sendMessage("§c§lHey! §7L'enchantement malédiction du lien éternel n'est pas actif sur le serveur, il vous est donc retiré.");
+			}
 		}
 	}
 	
