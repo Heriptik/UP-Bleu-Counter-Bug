@@ -3,13 +3,14 @@ package xyz.ultrapixelmon.upbleucounterbug;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
+import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.inventory.ItemStack;
 
 public class TerreBattuSpawn implements Listener {
 	
-	@EventHandler
+	@EventHandler(priority = EventPriority.HIGHEST)
 	public void onInteract(PlayerInteractEvent event){
 		
 		Player player = event.getPlayer();
@@ -44,6 +45,7 @@ public class TerreBattuSpawn implements Listener {
 					it.getType() == Material.valueOf("PIXELMON_GOOD_ROD") ||
 					it.getType() == Material.valueOf("PIXELMON_SUPER_ROD") ||
 					it.getType() == Material.valueOf("PIXELMON_OAS_ROD")) {
+
 				player.sendMessage("§c§lHey! §7Il n'est pas possible d'interagir avec cet objet dans la main.");
 				event.setCancelled(true);
 			}
