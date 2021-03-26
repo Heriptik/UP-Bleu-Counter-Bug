@@ -14,6 +14,7 @@ public class Main extends JavaPlugin {
 		getServer().getPluginManager().registerEvents(new RanchPancartesRemover(), this);
 		getServer().getPluginManager().registerEvents(new LargageCooldownPlayer(), this);
 		getServer().getPluginManager().registerEvents(new DisableInteractPokeLoot(), this);
+		getServer().getPluginManager().registerEvents(new DupMenuRedChain(), this);
 	}
 	
 	@Override
