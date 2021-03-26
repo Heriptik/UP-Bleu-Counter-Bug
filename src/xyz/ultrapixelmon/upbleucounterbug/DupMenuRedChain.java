@@ -22,6 +22,8 @@ public class DupMenuRedChain implements Listener {
         Player player = event.getPlayer();
         ItemStack it = event.getItem();
 
+        if(player.isOp()) return;
+
         if(it != null){
 
             if(event.getAction() == Action.RIGHT_CLICK_BLOCK || event.getAction() == Action.LEFT_CLICK_BLOCK || event.getAction() == Action.RIGHT_CLICK_AIR || event.getAction() == Action.LEFT_CLICK_AIR) {
@@ -48,6 +50,10 @@ public class DupMenuRedChain implements Listener {
 
         Player player = (Player) event.getWhoClicked();
         ItemStack it = event.getCurrentItem();
+
+        if(player.isOp()) return;
+
+        if(event.getClickedInventory().getTitle().contains("RTP Liste")) return;
 
         if (it != null){
 
@@ -77,6 +83,8 @@ public class DupMenuRedChain implements Listener {
 
         Player player = event.getPlayer();
         ItemStack it = event.getItemDrop().getItemStack();
+
+        if(player.isOp()) return;
 
         if(it != null){
             if(it.getType() == Material.valueOf("PIXELMON_RED_CHAIN") || it.getType() == Material.valueOf("PIXELMON_ORB")){
