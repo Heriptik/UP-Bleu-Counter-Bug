@@ -71,7 +71,6 @@ public class DupMenuRedChain implements Listener {
                             it.setType(Material.AIR);
                         }
                     }
-                    return;
                 }
             }
 
@@ -96,7 +95,6 @@ public class DupMenuRedChain implements Listener {
                         event.getItemDrop().remove();
                         player.sendMessage(ChatColor.GRAY + "Erreur ... impossible de jetter cet objet.");
                     }
-                    return;
                 }
             }
         }

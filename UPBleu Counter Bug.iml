@@ -25,23 +25,7 @@
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="inheritedJdk" />
-    <orderEntry type="module-library">
-      <library name="spigot-1.12.2.jar">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../Spigot server project/spigot-1.12.2.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="ArmorEquipEvent-1.7.2.jar">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../Spigot server project/ArmorEquipEvent-1.7.2.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
+    <orderEntry type="library" name="spigot-1.12.2" level="project" />
+    <orderEntry type="library" name="ArmorEquipEvent-1.7.2" level="project" />
   </component>
 </module>

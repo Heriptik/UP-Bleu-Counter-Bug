@@ -8,7 +8,7 @@ public class LargageCooldownPlayer implements Listener {
 
     @EventHandler
     public void onLargageChestOpen(InventoryOpenEvent event){
-        if(event.getPlayer().getWorld().getName().equals("world") && event.getPlayer().hasPermission("randomlootchest.nepeutplusouvrir") == true){
+        if(event.getPlayer().getWorld().getName().equals("world") && event.getPlayer().hasPermission("randomlootchest.nepeutplusouvrir")){
             if(event.getInventory().getTitle().equals("Largage")){
                 event.getPlayer().sendMessage("§c§lHey! §7Vous avez déjà ouvert un largage aujourd'hui. Celui-ci est donc perdu.");
                 event.setCancelled(true);

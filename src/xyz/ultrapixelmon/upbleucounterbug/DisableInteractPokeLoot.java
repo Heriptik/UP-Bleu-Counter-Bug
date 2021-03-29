@@ -23,7 +23,7 @@ public class DisableInteractPokeLoot implements Listener {
         if (event.getAction() == Action.LEFT_CLICK_AIR || event.getAction() == Action.LEFT_CLICK_BLOCK || event.getAction() == Action.RIGHT_CLICK_AIR) return;
         if (block == null) return;
 
-        if(player.getWorld().getName().equals("world") && player.hasPermission("world.buildallow") == false){
+        if(player.getWorld().getName().equals("world") && !player.hasPermission("world.buildallow")){
                 if( block.getType().name().equals("PIXELMON_POKE_CHEST") ||
                     block.getType().name().equals("PIXELMON_ULTRA_CHEST") ||
                     block.getType().name().equals("PIXELMON_MASTER_CHEST") ||
