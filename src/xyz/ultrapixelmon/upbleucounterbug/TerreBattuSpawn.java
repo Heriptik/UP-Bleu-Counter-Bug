@@ -24,8 +24,6 @@ public class TerreBattuSpawn implements Listener {
 					it.getType() == Material.GOLD_SPADE ||
 					it.getType() == Material.STONE_SPADE ||
 					it.getType() == Material.BUCKET ||
-					it.getType() == Material.WATER_BUCKET ||
-					it.getType() == Material.LAVA_BUCKET ||
 					it.getType() == Material.valueOf("PIXELMON_FIRE_STONE_SHOVEL") ||
 					it.getType() == Material.valueOf("PIXELMON_RUBY_SHOVEL") ||
 					it.getType() == Material.valueOf("PIXELMON_SAPPHIRE_SHOVEL") ||
@@ -39,7 +37,6 @@ public class TerreBattuSpawn implements Listener {
 					it.getType() == Material.valueOf("PIXELMON_DAWN_STONE_SHOVEL") ||
 					it.getType() == Material.valueOf("PIXELMON_DUSK_STONE_SHOVEL") ||
 					it.getType() == Material.valueOf("PIXELMON_ALUMINIUM_SPADE") ||
-					it.getType() == Material.valueOf("FORGE_BUCKETFILLED") ||
 					it.getType() == Material.FISHING_ROD ||
 					it.getType() == Material.valueOf("PIXELMON_OLD_ROD") ||
 					it.getType() == Material.valueOf("PIXELMON_GOOD_ROD") ||
@@ -49,8 +46,14 @@ public class TerreBattuSpawn implements Listener {
 				player.sendMessage("§c§lHey! §7Il n'est pas possible d'interagir avec cet objet dans la main.");
 				event.setCancelled(true);
 			}
+			else if(it.getType() == Material.WATER_BUCKET ||
+				it.getType() == Material.LAVA_BUCKET ||
+				it.getType() == Material.valueOf("FORGE_BUCKETFILLED")){
 
+				player.sendMessage("§c§lHey! §7Il n'est pas possible d'utiliser un seau d'eau au spawn.");
+				event.setCancelled(true);
+				event.getPlayer().getInventory().setItemInMainHand(new ItemStack(Material.BUCKET));
+			}
 		}
-		
 	}
 }
