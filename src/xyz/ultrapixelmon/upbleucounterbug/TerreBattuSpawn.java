@@ -46,14 +46,6 @@ public class TerreBattuSpawn implements Listener {
 				player.sendMessage("§c§lHey! §7Il n'est pas possible d'interagir avec cet objet dans la main.");
 				event.setCancelled(true);
 			}
-			else if(it.getType() == Material.WATER_BUCKET ||
-				it.getType() == Material.LAVA_BUCKET ||
-				it.getType() == Material.valueOf("FORGE_BUCKETFILLED")){
-
-				player.sendMessage("§c§lHey! §7Il n'est pas possible d'utiliser un seau d'eau au spawn.");
-				event.setCancelled(true);
-				event.getPlayer().getInventory().setItemInMainHand(new ItemStack(Material.BUCKET));
-			}
 		}
 	}
 }
