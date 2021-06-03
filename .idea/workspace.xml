@@ -7,12 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c6632dc-9ab8-4a44-8882-51ad3f93af98" name="Default Changelist" comment="Désactivation des cannes à pêche au spawn">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/ArmorEquipEvent_1_7_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/ArmorEquipEvent_1_7_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/spigot_1_12_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/spigot_1_12_2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UPBleu_Counter_Bug_jar/UPBleu Counter Bug.jar" beforeDir="false" afterPath="$PROJECT_DIR$/UPBleu_Counter_Bug_jar/UPBleu Counter Bug.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/ultrapixelmon/upbleucounterbug/TerreBattuSpawn.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/xyz/ultrapixelmon/upbleucounterbug/TerreBattuSpawn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/xyz/ultrapixelmon/upbleucounterbug/TerreBattuSpawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xyz/ultrapixelmon/upbleucounterbug/TerreBattuSpawn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/xyz/ultrapixelmon/upbleucounterbug/DupMenuRedChain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xyz/ultrapixelmon/upbleucounterbug/DupMenuRedChain.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,7 +27,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/xyz/ultrapixelmon/upbleucounterbug/DisableInteractPokeLoot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="657">
+            <state relative-caret-position="527">
               <caret line="40" column="120" selection-start-line="40" selection-start-column="120" selection-end-line="40" selection-end-column="120" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -39,9 +37,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugin.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/xyz/ultrapixelmon/upbleucounterbug/RanchPancartesRemover.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
+            <state relative-caret-position="289">
               <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -53,8 +60,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/xyz/ultrapixelmon/upbleucounterbug/TerreBattuSpawn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="18" column="117" lean-forward="true" selection-start-line="18" selection-start-column="117" selection-end-line="18" selection-end-column="117" />
+            <state relative-caret-position="514">
+              <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,8 +72,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/xyz/ultrapixelmon/upbleucounterbug/DupMenuRedChain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+            <state relative-caret-position="262">
+              <caret line="67" column="78" lean-forward="true" selection-start-line="67" selection-start-column="78" selection-end-line="67" selection-end-column="78" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,7 +84,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/xyz/ultrapixelmon/upbleucounterbug/FrostWalkerDisable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
+            <state relative-caret-position="204">
               <caret line="20" column="87" selection-start-line="20" selection-start-column="87" selection-end-line="20" selection-end-column="87" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -89,7 +96,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/xyz/ultrapixelmon/upbleucounterbug/LargageCooldownPlayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
+            <state relative-caret-position="119">
               <caret line="9" column="61" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -110,8 +117,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/xyz/ultrapixelmon/upbleucounterbug/PoseBreakSpawn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="34" lean-forward="true" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="50" />
+            <state relative-caret-position="391">
+              <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -141,14 +148,14 @@
         <option value="$PROJECT_DIR$/.classpath" />
         <option value="$PROJECT_DIR$/src/xyz/ultrapixelmon/upbleucounterbug/PoseBreakSpawn.java" />
         <option value="$PROJECT_DIR$/src/xyz/ultrapixelmon/upbleucounterbug/FrostWalkerDisable.java" />
-        <option value="$PROJECT_DIR$/src/xyz/ultrapixelmon/upbleucounterbug/DisableInteractPokeLoot.java" />
         <option value="$PROJECT_DIR$/src/xyz/ultrapixelmon/upbleucounterbug/LargageCooldownPlayer.java" />
-        <option value="$PROJECT_DIR$/src/xyz/ultrapixelmon/upbleucounterbug/DupMenuRedChain.java" />
-        <option value="$PROJECT_DIR$/plugin.yml" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/xyz/ultrapixelmon/upbleucounterbug/DisableBucketRiding.java" />
-        <option value="$PROJECT_DIR$/src/xyz/ultrapixelmon/upbleucounterbug/TerreBattuSpawn.java" />
         <option value="$PROJECT_DIR$/src/xyz/ultrapixelmon/upbleucounterbug/Main.java" />
+        <option value="$PROJECT_DIR$/src/xyz/ultrapixelmon/upbleucounterbug/TerreBattuSpawn.java" />
+        <option value="$PROJECT_DIR$/src/xyz/ultrapixelmon/upbleucounterbug/DisableInteractPokeLoot.java" />
+        <option value="$PROJECT_DIR$/src/xyz/ultrapixelmon/upbleucounterbug/DupMenuRedChain.java" />
+        <option value="$PROJECT_DIR$/plugin.yml" />
       </list>
     </option>
   </component>
@@ -158,8 +165,8 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -172,7 +179,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -195,11 +201,16 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1617297759684" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="up-bleu-counter-bug" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1622758653189" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/libs/ArmorEquipEvent-1.7.2.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15315315" />
@@ -263,11 +274,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.79523295" visible="true" weight="0.24520256" />
-      <window_info id="Structure" order="1" sideWeight="0.20476706" side_tool="true" visible="true" weight="0.24520256" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.78825134" visible="true" weight="0.2585288" />
+      <window_info id="Structure" order="1" sideWeight="0.21174863" side_tool="true" visible="true" weight="0.2585288" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -280,7 +291,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.19826652" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.061755147" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.20693392" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.2708559" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.17659806" />
@@ -288,7 +299,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Codota" order="4" visible="true" weight="0.12953092" />
+      <window_info anchor="right" id="Codota" order="4" visible="true" weight="0.10021322" />
       <window_info anchor="right" id="Maven" order="5" weight="0.042643923" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
@@ -392,28 +403,12 @@
     <entry file="file://$PROJECT_DIR$/.project" />
     <entry file="jar://$PROJECT_DIR$/../Spigot server project/spigot-1.12.2.jar!/org/bukkit/inventory/meta/ItemMeta.class" />
     <entry file="file://$PROJECT_DIR$/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/plugin.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa20100.19869/com/gmail/trentech/pjp/listeners/PortalListener.class" />
-    <entry file="file://$PROJECT_DIR$/src/xyz/ultrapixelmon/upbleucounterbug/DisableBucketRiding.java">
+    <entry file="file://$PROJECT_DIR$/src/xyz/ultrapixelmon/upbleucounterbug/DisableBucketRiding.java" />
+    <entry file="file://$PROJECT_DIR$/src/xyz/ultrapixelmon/upbleucounterbug/RanchPancartesRemover.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/xyz/ultrapixelmon/upbleucounterbug/DisableInteractPokeLoot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="657">
-          <caret line="40" column="120" selection-start-line="40" selection-start-column="120" selection-end-line="40" selection-end-column="120" />
+        <state relative-caret-position="289">
+          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -422,7 +417,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/xyz/ultrapixelmon/upbleucounterbug/FrostWalkerDisable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
+        <state relative-caret-position="204">
           <caret line="20" column="87" selection-start-line="20" selection-start-column="87" selection-end-line="20" selection-end-column="87" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -432,8 +427,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/xyz/ultrapixelmon/upbleucounterbug/LargageCooldownPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="119">
           <caret line="9" column="61" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xyz/ultrapixelmon/upbleucounterbug/PoseBreakSpawn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xyz/ultrapixelmon/upbleucounterbug/TerreBattuSpawn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xyz/ultrapixelmon/upbleucounterbug/DisableInteractPokeLoot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="40" column="120" selection-start-line="40" selection-start-column="120" selection-end-line="40" selection-end-column="120" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -447,40 +472,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/xyz/ultrapixelmon/upbleucounterbug/PoseBreakSpawn.java">
+    <entry file="file://$PROJECT_DIR$/plugin.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="34" lean-forward="true" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/xyz/ultrapixelmon/upbleucounterbug/RanchPancartesRemover.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/xyz/ultrapixelmon/upbleucounterbug/TerreBattuSpawn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="18" column="117" lean-forward="true" selection-start-line="18" selection-start-column="117" selection-end-line="18" selection-end-column="117" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/xyz/ultrapixelmon/upbleucounterbug/DupMenuRedChain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+        <state relative-caret-position="262">
+          <caret line="67" column="78" lean-forward="true" selection-start-line="67" selection-start-column="78" selection-end-line="67" selection-end-column="78" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
